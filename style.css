@@ -1,8 +1,43 @@
-.accordion-body {
+.accordion-item {
+    display: none;
+}
+.accordion-title {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+}
+.accordion-title::after {
+    content: '+';
+}
+.accordion-body1 {
+    display: none;
     width: 300px;
     height: 300px;
     background-image: url(./img/1.jpeg);
 }
-details:hover {
-    open: open;
+.accordion-body2 {
+    display: none;
+    width: 300px;
+    height: 350px;
+    background-image: url(./img/2.jpg);
+}
+.accordion-body3 {
+    display: none;
+    width: 300px;
+    height: 200px;
+    background-image: url(./img/3.jpg);
+    background-repeat: no-repeat;
+}
+.accordion-body4 {
+    display: none;
+    width: 300px;
+    height: 400px;
+    background-image: url(./img/4.jpg);
+}
+.accordion-body5 {
+    display: none;
+    width: 300px;
+    height: 400px;
+    background-image: url(./img/4.jpg);
 }
